@@ -121,8 +121,9 @@ exe "hi! StatusLine"    .s:fg_fg          .s:bg_panel       .s:fmt_none
 exe "hi! StatusLineNC"  .s:fg_fg_idle     .s:bg_panel       .s:fmt_none
 exe "hi! WildMenu"      .s:fg_bg          .s:bg_markup      .s:fmt_none
 exe "hi! TabLine"       .s:fg_fg          .s:bg_panel       .s:fmt_revr
-"   TabLineFill"
-"   TabLineSel"
+exe "hi! TabLineFill"   .s:fg_bg          .s:bg_panel       .s:fmt_revr
+exe "hi! TabLineSel"    .s:fg_accent      .s:bg_none        .s:fmt_revr
+
 exe "hi! Title"         .s:fg_keyword     .s:bg_none        .s:fmt_none
 exe "hi! Visual"        .s:fg_none        .s:bg_selection   .s:fmt_none
 "   VisualNos"
